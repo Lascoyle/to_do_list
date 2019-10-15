@@ -1,0 +1,141 @@
+/*Nettoyage du code*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+/*Définition du background*/
+
+body
+{
+    background: rgb(66, 52, 52);
+    font-family: 'Lato', sans-serif;
+}
+
+h1
+{
+    background: rgb(24, 24, 24);
+    color: white;
+    font-size: 3rem;
+    margin: 5%;
+    padding: 1%;
+}
+
+h3
+{
+    font-weight: normal;
+}
+/*Mise en forme de la liste*/
+.list
+{
+    width: 30vw;
+    background: white;
+    margin: auto;
+    margin-top: 2vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:  rgb(24, 24, 24);
+    font-weight: bold;
+    border-radius: 7px; 
+}
+
+.task
+{
+    padding: 5%;
+}
+
+.item__list
+{
+    background-color: rgb(170, 155, 155);
+    width: 22vw;
+    margin: auto;
+    padding: 2%;
+    border-radius: 7px;
+    margin-top: 5vh;
+    height: 52.5vh;
+    color: white;
+}
+
+.item__list ul
+{
+    background: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    width: 100%;
+    color: gray;
+    font-weight: normal; 
+}
+
+li
+{
+    list-style-type: none;
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a
+{
+    color: rgb(170, 155, 155);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+}
+
+.checked
+{
+    text-decoration: line-through;
+}
+
+.checkbox
+{
+    display: block;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.login_form 
+{
+    background: rgb(170, 155, 155);
+    padding: 2%;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold; 
+    width: 23vw;
+    margin: auto; 
+    margin-top: 25vh;
+}
+
+.login_title
+{
+    background: none;
+    margin: none;
+}
+
+.login_item
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
